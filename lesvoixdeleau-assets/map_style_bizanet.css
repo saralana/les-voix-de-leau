@@ -1,13 +1,13 @@
 @font-face {
   font-family: "NewsGothic";
-  src: url("../bizanet-assets/newsgothicTlight.ttf") format("truetype");
+  src: url("../lesvoixdeleau-assets/newsgothicTlight.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "MerlotNorme";
-  src: url("../bizanet-assets/MerlodNorme-SemiBold.otf") format("opentype");
+  src: url("../lesvoixdeleau-assets/MerlodNorme-SemiBold.otf") format("opentype");
   font-weight: bold;
 }
 
@@ -21,7 +21,7 @@ body {
 
 
 .marker {
-    background-image: url('../bizanet-assets/bizanet-icon.png');
+    background-image: url('../lesvoixdeleau-assets/bizanet-icon.png');
     background-size: cover;
     width: 38px;
     height: 38px;

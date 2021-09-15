@@ -8,10 +8,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="bizanet-assets/map_style_bizanet.css">
+<link rel="stylesheet" href="lesvoixdeleau-assets/map_style_bizanet.css">
   <!-- Google fonts-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-  <link rel="shortcut icon" href="../bizanet-assets/favicon.ico" />
+  <link rel="shortcut icon" href="../lesvoixdeleau-assets/favicon.ico" />
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -30,14 +30,14 @@
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <div class="sidebar-content">
-        <img src="bizanet-assets/bizanet.png" alt="les voix de l'eau"> 
+        <img src="lesvoixdeleau-assets/bizanet.png" alt="les voix de l'eau"> 
         <p>Félix Blume et les enfants de Bizanet vous invitent à vous balader
         dans les rues, à suivre l’eau et ses mystères, munis d’un dispositif d’écoute aquatique.</p>
     </div>
 </div>
 
 
-<img src="bizanet-assets/bizanet-menu.png" class="openbtn" onclick="openNav()"> 
+<img src="lesvoixdeleau-assets/bizanet-menu.png" class="openbtn" onclick="openNav()"> 
 
 
 <div id="map"></div>
@@ -161,7 +161,7 @@
         .setPopup(
             new mapboxgl.Popup({ offset: 25 }) // add popups
             .setHTML(
-                '<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="bizanet-assets/sounds/' +
+                '<audio controls style="width:100%;" controlsList="nodownload" autoplay><source src="lesvoixdeleau-assets/sounds/' +
                 marker.properties.Audio + 
                 `.mp3" type="audio/mpeg"></audio>` + 
                 `<h2>` + 
@@ -458,7 +458,7 @@ for (i = 0; i < coll.length; i++) {
 
     
 <content>
-    <img src="bizanet-assets/bizanet.png" alt="les voix de l'eau"> 
+    <img src="lesvoixdeleau-assets/bizanet.png" alt="les voix de l'eau"> 
     <p>Félix Blume et les enfants de Bizanet vous invitent à vous balader
     dans les rues, à suivre l’eau et ses mystères, munis d’un dispositif d’écoute aquatique.</p>
 </content>
